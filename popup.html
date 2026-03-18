@@ -1,11 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Time Tracker</title>
+  <meta charset="UTF-8">
+  <title>YouTube Time Tracker</title>
+  <link rel="stylesheet" href="popup.css">
 </head>
 <body>
-  <h3>YouTube Time</h3>
-  <p id="time">Loading...</p>
+  <div class="container">
+    <h1>YouTube Time Tracker</h1>
+    <h2>Today's Total</h2>
+    <p id="time">Loading...</p>
+    <div class="info">
+      <p id="date">Loading date...</p>
+      <p class="status" id="status">Tracking...</p>
+    </div>
+    <div class="button-container">
+      <button id="resetBtn" class="reset-btn">Reset Today</button>
+    </div>
+  </div>
 
   <script src="popup.js"></script>
 </body>
